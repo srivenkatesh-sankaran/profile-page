@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1008px) {
+  .weather-list-item {
+      display: none;
+  }
+}
+
+html {
+  overflow-y: hidden;
+}
+body {
+  margin-left: 0;
+}
+
+.scroll-content {
+  height: calc(100vh - 48px);
+  margin-top: 48px;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100vw;
+}
+
+iframe {
+  position: absolute;
+}
+
+.navbar-container {
+  margin-bottom: 50px;
+}
+.navbar {
+  background-color: #000000;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+@supports (-ms-ime-align:auto) {
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.navbar li {
+  list-style: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.navbar a {
+  border-radius: 0.05em;
+  color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+
+@-moz-document url-prefix() {
+  .navbar a {
+    padding: 13px 35px;
+  }
+}
+
+.navbar a:hover {
+  background-color: #22A39F;
+  color: #FFF8DC;
+  text-decoration: underline;
+}
+
+.navbar .weather-list-item {
+  color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 50px;
+  min-width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.active-navbar-item {
+  background-color: #22A39F;
+  color: #FFF8DC;
+}
+
+

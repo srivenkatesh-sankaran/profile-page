@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+.experiences {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.experiences:after,
+.careers:after,
+.colleges:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+
+.experiences h2 {
+  margin-bottom: 25px;
+}
+
+.work-experience {
+  margin-bottom: 50px;
+}
+
+.careers,
+.colleges {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.org-info,
+.college-info {
+  float: left;
+  width: 30%;
+}
+
+.org-name,
+.college-name {
+  color: #22A39F;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.org-name:hover,
+.college-name:hover {
+  text-decoration: underline;
+}
+
+.work-title,
+.degree-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.work-title img,
+.work-timeline img,
+.work-location img,
+.degree-title img,
+.degree-timeline img,
+.college-location img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.work-description,
+.college-description {
+  float: right;
+  line-height: 2em;
+  width: 70%;
+}
+
+.work-timeline,
+.degree-timeline {
+  font-style: italic;
+  margin-top: 7px;
+}
+
+.work-location,
+.college-location {
+  margin-top: 7px;
+}

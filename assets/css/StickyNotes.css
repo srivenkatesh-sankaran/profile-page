@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+.contact {
+  height: 100%;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.sticky-wrapper {
+  background: url('/assets/contact/stickyboard.jpg');
+  background-size: 100% 100%;
+  min-height: 50%;
+  width: 100%;
+}
+
+.sticky-notes {
+    height: 250px;
+    width: 250px;
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
+    line-height: 1.2em;
+    text-indent: 1.5em;
+    margin: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #5a2d0c), color-stop(0%, #F0E68C));
+    background: -webkit-linear-gradient(top, #5a2d0c 20%, #F0E68C 0%);
+    background: -o-linear-gradient(top, #5a2d0c 20%, #F0E68C 0%);
+    background: linear-gradient(top, #5a2d0c 20%, #F0E68C 0%);
+    box-shadow: 5px 5px 15px #aaaaaa;
+}
+
+.sticky-container .sticky-notes:nth-child(odd) {
+  -webkit-transform: rotate(5deg);
+      -ms-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.sticky-container .sticky-notes:nth-child(even) {
+  -webkit-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.sticky-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+
+.contact-form {
+  background: url('/assets/contact/envelope.jpg');
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 10px #AAAAAA;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 45%;
+}
+
+.contact-form .input-form > h2 {
+  align-self: center;
+  width: 70%;
+}
+
+.contact-form .input-form > h2,
+.contact-form .contact-options > h2 {
+  color: #CD4539;
+  margin-bottom: 40px;
+}
+
+.contact-form .input-form div {
+  align-items: center;
+  color: #232E4F;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.contact-form .contact-options {
+  display: inline-block;
+  margin-top: 5%;
+  width: 35%;
+}
+
+.contact-form div label {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  width: 125px;
+}
+
+.contact-form input[type=text] {
+  border-radius: 3px;
+  box-shadow: none;
+  height: 30px;
+  width: 210px;
+}
+
+.contact-form .input-form button {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 35px;
+  margin-left: 150px;
+  width: 100px;
+}
+
+.contact-form textarea {
+  border-radius: 3px;
+  box-shadow: none;
+  height: 70px;
+  resize: none;
+  width: 210px;
+}
+
+.contact-form .input-form label:after {
+  color: #EE3322;
+  content: ' *';
+  display: inline;
+}
+
+.contact-form .input-form .invalid-message {
+  color: #EE3322;
+  width: 150px;
+}
+
+.contact-form .input-form .no-display {
+  display: none;
+}
+
+.contact-form .input-form .submit-message {
+  color: #008000;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.contact-form .contact-options > div {
+  margin-top: 25px;
+}
+
+.contact-form .contact-options img {
+  border-radius: 50%;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.contact-form .contact-options a,
+.contact-form .contact-options span {
+  color: #232E4F;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.sticky-notes p {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.sticky-notes .sticky-header {
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  text-indent: 0;
+}

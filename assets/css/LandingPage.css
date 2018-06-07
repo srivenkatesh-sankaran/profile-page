@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Itim|Pacifico');
+
+.landing-page {
+  background: url(/assets/westworld.jpg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 600;
+}
+
+.close-overlay {
+  cursor: default;
+  opacity: 0;
+  -webkit-transition: opacity ease-out 4s;
+          transition: opacity ease-out 4s;
+}
+
+.landing-page .landing-profile {
+  bottom: 0;
+  color: #FFFFFF;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+.landing-page .landing-profile-name {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  height: 120px;
+  width: 750px;
+}
+
+.landing-page .landing-profile-tags {
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+  height: 30px;
+  top: 120px;
+  width: 750px;
+}
+
