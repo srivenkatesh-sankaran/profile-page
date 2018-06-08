@@ -100,7 +100,7 @@ class WeatherPill extends React.Component {
   }
 
   componentWillMount() {
-    this.props.fetchIPInformation('http://ipinfo.io/geo');
+    this.props.fetchIPInformation('https://ipinfo.io/geo');
   }
 
   componentWillReceiveProps(nextProps) {
