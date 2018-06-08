@@ -51182,7 +51182,7 @@ var WeatherPill = function (_React$Component) {
   _createClass(WeatherPill, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
-      this.props.fetchIPInformation('http://ipinfo.io/geo');
+      this.props.fetchIPInformation('https://ipinfo.io/geo');
     }
   }, {
     key: 'componentWillReceiveProps',
