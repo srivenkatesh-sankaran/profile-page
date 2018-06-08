@@ -37113,7 +37113,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'work-title' },
-            _react2.default.createElement('img', { src: '../assets/experiences/avatar-color.svg', alt: 'avatar', width: '20', height: '20' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/avatar-color.svg', alt: 'avatar', width: '20', height: '20' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37123,7 +37123,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'work-timeline' },
-            _react2.default.createElement('img', { src: '../assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37133,7 +37133,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'work-location' },
-            _react2.default.createElement('img', { src: '../assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37161,7 +37161,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'work-title' },
-            _react2.default.createElement('img', { src: '../assets/experiences/avatar-color.svg', alt: 'avatar', width: '20', height: '20' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/avatar-color.svg', alt: 'avatar', width: '20', height: '20' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37171,7 +37171,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'work-timeline' },
-            _react2.default.createElement('img', { src: '../assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37181,7 +37181,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'work-location' },
-            _react2.default.createElement('img', { src: '../assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37218,7 +37218,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'degree-title' },
-            _react2.default.createElement('img', { src: '../assets/experiences/grad-cap.svg', alt: 'grad-cap', width: '20', height: '20' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/grad-cap.svg', alt: 'grad-cap', width: '20', height: '20' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37228,7 +37228,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'degree-timeline' },
-            _react2.default.createElement('img', { src: '../assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37238,7 +37238,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'college-location' },
-            _react2.default.createElement('img', { src: '../assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37266,7 +37266,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'degree-title' },
-            _react2.default.createElement('img', { src: '../assets/experiences/grad-cap.svg', alt: 'grad-cap', width: '20', height: '20' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/grad-cap.svg', alt: 'grad-cap', width: '20', height: '20' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37276,7 +37276,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'degree-timeline' },
-            _react2.default.createElement('img', { src: '../assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/calendar-color.svg', alt: 'calendar', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37286,7 +37286,7 @@ var Experiences = function Experiences() {
           _react2.default.createElement(
             'div',
             { className: 'college-location' },
-            _react2.default.createElement('img', { src: '../assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
+            _react2.default.createElement('img', { src: 'assets/experiences/location-color.svg', alt: 'location', width: '20', height: '18' }),
             _react2.default.createElement(
               'div',
               null,
@@ -37513,7 +37513,7 @@ var Profile = function Profile() {
   return _react2.default.createElement(
     'div',
     { className: 'profile' },
-    _react2.default.createElement('img', { src: '../../assets/collage.jpg', alt: 'collage' }),
+    _react2.default.createElement('img', { src: 'assets/collage.jpg', alt: 'collage' }),
     _react2.default.createElement(
       'div',
       { className: 'profile-content' },
@@ -37555,7 +37555,7 @@ var Profile = function Profile() {
           'I'
         ),
         ' am a Software Engineer with keen interest and demonstrated experience with front end technologies.',
-        _react2.default.createElement('img', { src: '../../assets/profile.jpg', alt: 'profile' }),
+        _react2.default.createElement('img', { src: 'assets/profile.jpg', alt: 'profile' }),
         '\xA0I have worked on client facing products and services as part of my career and posess good knowledge with triaging, toubleshooting and fixing critical issues upto production environment. My technology stack includes React JS, Redux, Javascript, CSS, jQuery, Java and Ruby on Rails. Developing websites/ web applications has been my interest since sixth grade. It has been a good journey so far and looking forward to continue further on improving myself along the same lines.'
       )
     )
@@ -37651,7 +37651,7 @@ var Resume = function Resume() {
     null,
     _react2.default.createElement(
       "iframe",
-      { title: "Resume", src: "../assets/Resume.pdf", width: "100%", height: "100%" },
+      { title: "Resume", src: "assets/Resume.pdf", width: "100%", height: "100%" },
       "This browser does not support PDFs. Please download the PDF to view it: ",
       _react2.default.createElement(
         "a",
@@ -37920,7 +37920,7 @@ var StickyNotesContainer = function (_React$Component) {
             _react2.default.createElement(
               'div',
               null,
-              _react2.default.createElement('img', { alt: 'linkedin', src: '../../assets/contact/linkedin.png', width: '30', height: '30', align: 'middle' }),
+              _react2.default.createElement('img', { alt: 'linkedin', src: 'assets/contact/linkedin.png', width: '30', height: '30', align: 'middle' }),
               _react2.default.createElement(
                 'a',
                 { href: 'https://www.linkedin.com/in/sri-venkatesh-sankaran/' },
@@ -37930,7 +37930,7 @@ var StickyNotesContainer = function (_React$Component) {
             _react2.default.createElement(
               'div',
               null,
-              _react2.default.createElement('img', { alt: 'email', src: '../../assets/contact/email.png', width: '30', height: '30', align: 'middle' }),
+              _react2.default.createElement('img', { alt: 'email', src: 'assets/contact/email.png', width: '30', height: '30', align: 'middle' }),
               _react2.default.createElement(
                 'a',
                 { href: 'mailto:ssvenkatesh6666@gmail.com' },
@@ -37940,7 +37940,7 @@ var StickyNotesContainer = function (_React$Component) {
             _react2.default.createElement(
               'div',
               null,
-              _react2.default.createElement('img', { alt: 'phone', src: '../../assets/contact/phone.png', width: '30', height: '30', align: 'middle' }),
+              _react2.default.createElement('img', { alt: 'phone', src: 'assets/contact/phone.png', width: '30', height: '30', align: 'middle' }),
               _react2.default.createElement(
                 'span',
                 null,
@@ -50492,7 +50492,6 @@ var revealAll = function revealAll(event) {
 
   if (currentTarget) {
     if (currentTarget.value === 'Reveal') {
-      console.log(currentTarget.innerText);
       currentTarget.previousSibling.style.display = 'none';
       currentTarget.innerText = 'Close All';
       currentTarget.value = 'Close';
@@ -50533,7 +50532,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'html', height: '120', width: '150', src: '../assets/techstack/html.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'html', height: '120', width: '150', src: 'assets/techstack/html.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50553,7 +50552,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'css', height: '120', width: '150', src: '../assets/techstack/css.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'css', height: '120', width: '150', src: 'assets/techstack/css.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50573,7 +50572,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'react', height: '120', width: '150', src: '../assets/techstack/react.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'react', height: '120', width: '150', src: 'assets/techstack/react.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50593,7 +50592,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'javascript', height: '120', width: '150', src: '../assets/techstack/javascript.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'javascript', height: '120', width: '150', src: 'assets/techstack/javascript.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50613,7 +50612,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'java', height: '120', width: '150', src: '../assets/techstack/java.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'java', height: '120', width: '150', src: 'assets/techstack/java.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50633,7 +50632,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'ruby', height: '120', width: '150', src: '../assets/techstack/ruby.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'ruby', height: '120', width: '150', src: 'assets/techstack/ruby.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50657,7 +50656,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'jquery', height: '120', width: '150', src: '../assets/techstack/jquery.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'jquery', height: '120', width: '150', src: 'assets/techstack/jquery.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50677,7 +50676,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'ios', height: '120', width: '150', src: '../assets/techstack/ios.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'ios', height: '120', width: '150', src: 'assets/techstack/ios.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50697,7 +50696,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'rails', height: '120', width: '150', src: '../assets/techstack/rails.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'rails', height: '120', width: '150', src: 'assets/techstack/rails.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50717,7 +50716,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'git', height: '120', width: '150', src: '../assets/techstack/git.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'git', height: '120', width: '150', src: 'assets/techstack/git.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50737,7 +50736,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'spring', height: '120', width: '150', src: '../assets/techstack/spring.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'spring', height: '120', width: '150', src: 'assets/techstack/spring.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50757,7 +50756,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'struts', height: '120', width: '150', src: '../assets/techstack/struts.jpeg' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'struts', height: '120', width: '150', src: 'assets/techstack/struts.jpeg' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50781,7 +50780,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'jasmine', height: '120', width: '150', src: '../assets/techstack/jasmine.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'jasmine', height: '120', width: '150', src: 'assets/techstack/jasmine.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50801,7 +50800,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'webdriverio', height: '120', width: '150', src: '../assets/techstack/webdriverio.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'webdriverio', height: '120', width: '150', src: 'assets/techstack/webdriverio.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50821,7 +50820,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'junit', height: '120', width: '150', src: '../assets/techstack/junit.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'junit', height: '120', width: '150', src: 'assets/techstack/junit.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50841,7 +50840,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'splunk', height: '120', width: '150', src: '../assets/techstack/splunk.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'splunk', height: '120', width: '150', src: 'assets/techstack/splunk.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50861,7 +50860,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'bootstrap', height: '120', width: '150', src: '../assets/techstack/bootstrap.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'bootstrap', height: '120', width: '150', src: 'assets/techstack/bootstrap.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -50881,7 +50880,7 @@ var TechStack = function TechStack() {
         _react2.default.createElement(
           'div',
           { className: 'ratings' },
-          _react2.default.createElement('img', { className: 'img-circle', alt: 'mysql', height: '120', width: '150', src: '../assets/techstack/mysql.png' }),
+          _react2.default.createElement('img', { className: 'img-circle', alt: 'mysql', height: '120', width: '150', src: 'assets/techstack/mysql.png' }),
           _react2.default.createElement(
             'span',
             { className: 'reveal-text' },
@@ -51103,7 +51102,7 @@ var weatherCard = function weatherCard(city, country, dateText, mainIconSource, 
       _react2.default.createElement(
         'div',
         { className: 'precipitation' },
-        _react2.default.createElement('img', { src: '../assets/weather/precipitation.svg', alt: 'precipitation', height: '35', width: '35' }),
+        _react2.default.createElement('img', { src: 'assets/weather/precipitation.svg', alt: 'precipitation', height: '35', width: '35' }),
         _react2.default.createElement(
           'span',
           null,
@@ -51114,7 +51113,7 @@ var weatherCard = function weatherCard(city, country, dateText, mainIconSource, 
       _react2.default.createElement(
         'div',
         { className: 'wind' },
-        _react2.default.createElement('img', { src: '../assets/weather/wind_speed.svg', alt: 'wind speed', height: '35', width: '35' }),
+        _react2.default.createElement('img', { src: 'assets/weather/wind_speed.svg', alt: 'wind speed', height: '35', width: '35' }),
         _react2.default.createElement(
           'span',
           null,
@@ -51126,7 +51125,7 @@ var weatherCard = function weatherCard(city, country, dateText, mainIconSource, 
       _react2.default.createElement(
         'div',
         { className: 'humidity' },
-        _react2.default.createElement('img', { src: '../assets/weather/humidity.svg', alt: 'humidity', height: '35', width: '35' }),
+        _react2.default.createElement('img', { src: 'assets/weather/humidity.svg', alt: 'humidity', height: '35', width: '35' }),
         _react2.default.createElement(
           'span',
           null,
@@ -51281,7 +51280,7 @@ var WeatherPill = function (_React$Component) {
 
       if (this.currentCardNumber === '0') {
         if (props.weatherResponse.currently) {
-          mainIconSource = '../assets/weather/' + props.weatherResponse.currently.icon + '.svg';
+          mainIconSource = 'assets/weather/' + props.weatherResponse.currently.icon + '.svg';
           humidity = Math.round(props.weatherResponse.currently.humidity * 100);
           precipitation = Math.round(props.weatherResponse.currently.precipProbability * 100);
           summary = props.weatherResponse && props.weatherResponse.currently.summary;
@@ -51289,7 +51288,7 @@ var WeatherPill = function (_React$Component) {
           windSpeed = props.weatherResponse.currently.windSpeed;
         }
       } else if (props.weatherResponse.daily && props.weatherResponse.daily.data[this.currentCardNumber]) {
-        mainIconSource = '../assets/weather/' + props.weatherResponse.daily.data[this.currentCardNumber].icon + '.svg';
+        mainIconSource = 'assets/weather/' + props.weatherResponse.daily.data[this.currentCardNumber].icon + '.svg';
         humidity = Math.round(props.weatherResponse.daily.data[this.currentCardNumber].humidity * 100);
         precipitation = Math.round(props.weatherResponse.daily.data[this.currentCardNumber].precipProbability * 100);
         summary = props.weatherResponse && props.weatherResponse.daily.data[this.currentCardNumber].summary;
@@ -51342,8 +51341,8 @@ var WeatherPill = function (_React$Component) {
     value: function render() {
       var _this3 = this;
 
-      var nextDayIconSource = this.props.weatherResponse && this.props.weatherResponse.daily && this.props.weatherResponse.daily.data[1] && '../assets/weather/' + this.props.weatherResponse.daily.data[1].icon + '.svg';
-      var dayAfterIconSource = this.props.weatherResponse && this.props.weatherResponse.daily && this.props.weatherResponse.daily.data[2] && '../assets/weather/' + this.props.weatherResponse.daily.data[2].icon + '.svg';
+      var nextDayIconSource = this.props.weatherResponse && this.props.weatherResponse.daily && this.props.weatherResponse.daily.data[1] && 'assets/weather/' + this.props.weatherResponse.daily.data[1].icon + '.svg';
+      var dayAfterIconSource = this.props.weatherResponse && this.props.weatherResponse.daily && this.props.weatherResponse.daily.data[2] && 'assets/weather/' + this.props.weatherResponse.daily.data[2].icon + '.svg';
       var city = this.props.IPResponse && this.props.IPResponse.city;
       var country = this.props.IPResponse && this.props.IPResponse.country;
       var summary = this.props.weatherResponse && this.props.weatherResponse.currently.summary;
@@ -51498,7 +51497,7 @@ var WeatherPill = function (_React$Component) {
             'Refresh',
             _react2.default.createElement('img', { onClick: function onClick() {
                 _this3.props.fetchWeatherInformation(_this3.weatherURL);
-              }, onKeyPress: function onKeyPress() {}, src: '../assets/weather/refresh.svg', alt: 'refresh', height: '18', width: '18' })
+              }, onKeyPress: function onKeyPress() {}, src: 'assets/weather/refresh.svg', alt: 'refresh', height: '18', width: '18' })
           ),
           _react2.default.createElement(
             'div',

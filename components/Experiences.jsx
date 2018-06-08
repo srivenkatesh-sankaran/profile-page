@@ -9,15 +9,15 @@ const Experiences = () => (
         <div className="org-info">
           <a className="org-name" href="https://www.cerner.com/"> Cerner Corporation </a>
           <div className="work-title">
-            <img src="../assets/experiences/avatar-color.svg" alt="avatar" width="20" height="20" />
+            <img src="assets/experiences/avatar-color.svg" alt="avatar" width="20" height="20" />
             <div> Associate Senior Software Engineer </div>
           </div>
           <div className="work-timeline">
-            <img src="../assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
+            <img src="assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
             <div> July 2015 - Present </div>
           </div>
           <div className="work-location">
-            <img src="../assets/experiences/location-color.svg" alt="location" width="20" height="18" />
+            <img src="assets/experiences/location-color.svg" alt="location" width="20" height="18" />
             <div> Kansas City, Missouri </div>
           </div>
         </div>
@@ -35,15 +35,15 @@ const Experiences = () => (
         <div className="org-info">
           <a className="org-name" href="https://www.earlywarning.com/"> Early Warning Services </a>
           <div className="work-title">
-            <img src="../assets/experiences/avatar-color.svg" alt="avatar" width="20" height="20" />
+            <img src="assets/experiences/avatar-color.svg" alt="avatar" width="20" height="20" />
             <div> Software Engineering Intern </div>
           </div>
           <div className="work-timeline">
-            <img src="../assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
+            <img src="assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
             <div> July 2014 - May 2015 </div>
           </div>
           <div className="work-location">
-            <img src="../assets/experiences/location-color.svg" alt="location" width="20" height="18" />
+            <img src="assets/experiences/location-color.svg" alt="location" width="20" height="18" />
             <div> Scottsdale, Arizona </div>
           </div>
         </div>
@@ -62,15 +62,15 @@ const Experiences = () => (
         <div className="college-info">
           <a className="college-name" href="https://www.asu.edu/"> Arizona State University </a>
           <div className="degree-title">
-            <img src="../assets/experiences/grad-cap.svg" alt="grad-cap" width="20" height="20" />
+            <img src="assets/experiences/grad-cap.svg" alt="grad-cap" width="20" height="20" />
             <div> Master of Science </div>
           </div>
           <div className="degree-timeline">
-            <img src="../assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
+            <img src="assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
             <div> August 2013  - May 2015 </div>
           </div>
           <div className="college-location">
-            <img src="../assets/experiences/location-color.svg" alt="location" width="20" height="18" />
+            <img src="assets/experiences/location-color.svg" alt="location" width="20" height="18" />
             <div> Tempe, Arizona </div>
           </div>
         </div>
@@ -85,15 +85,15 @@ const Experiences = () => (
         <div className="college-info">
           <a className="college-name" href="https://www.annauniv.edu/"> Anna University </a>
           <div className="degree-title">
-            <img src="../assets/experiences/grad-cap.svg" alt="grad-cap" width="20" height="20" />
+            <img src="assets/experiences/grad-cap.svg" alt="grad-cap" width="20" height="20" />
             <div> Bachelor of Engineering </div>
           </div>
           <div className="degree-timeline">
-            <img src="../assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
+            <img src="assets/experiences/calendar-color.svg" alt="calendar" width="20" height="18" />
             <div> September 2009 - May 2013 </div>
           </div>
           <div className="college-location">
-            <img src="../assets/experiences/location-color.svg" alt="location" width="20" height="18" />
+            <img src="assets/experiences/location-color.svg" alt="location" width="20" height="18" />
             <div> Chennai, India </div>
           </div>
         </div>

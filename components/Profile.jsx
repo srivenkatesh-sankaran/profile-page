@@ -3,7 +3,7 @@ import '../assets/css/Profile.css';
 
 const Profile = () => (
   <div className="profile">
-    <img src="../../assets/collage.jpg" alt="collage" />
+    <img src="assets/collage.jpg" alt="collage" />
     <div className="profile-content">
       <h2> ABOUT ME </h2>
       <div className="company-location-info">
@@ -16,7 +16,7 @@ const Profile = () => (
       <p>
         <span className="starting-letter">I</span> am a Software Engineer with keen interest and
         demonstrated experience with front end technologies.
-        <img src="../../assets/profile.jpg" alt="profile" />
+        <img src="assets/profile.jpg" alt="profile" />
         &nbsp;I have worked on client facing products and services as part of my career and
         posess good knowledge with triaging, toubleshooting and
         fixing critical issues upto production environment.

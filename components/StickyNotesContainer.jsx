@@ -155,15 +155,15 @@ class StickyNotesContainer extends React.Component {
           <div className="contact-options">
             <h2> Contact at: </h2>
             <div>
-              <img alt="linkedin" src="../../assets/contact/linkedin.png" width="30" height="30" align="middle" />
+              <img alt="linkedin" src="assets/contact/linkedin.png" width="30" height="30" align="middle" />
               <a href="https://www.linkedin.com/in/sri-venkatesh-sankaran/"> LinkedIn Profile </a>
             </div>
             <div>
-              <img alt="email" src="../../assets/contact/email.png" width="30" height="30" align="middle" />
+              <img alt="email" src="assets/contact/email.png" width="30" height="30" align="middle" />
               <a href="mailto:ssvenkatesh6666@gmail.com"> ssvenkatesh6666@gmail.com </a>
             </div>
             <div>
-              <img alt="phone" src="../../assets/contact/phone.png" width="30" height="30" align="middle" />
+              <img alt="phone" src="assets/contact/phone.png" width="30" height="30" align="middle" />
               <span> 602-500-8128 </span>
             </div>
           </div>

@@ -46,15 +46,15 @@ const weatherCard = (
       </div>
       <div className="weather-details">
         <div className="precipitation">
-          <img src="../assets/weather/precipitation.svg" alt="precipitation" height="35" width="35" />
+          <img src="assets/weather/precipitation.svg" alt="precipitation" height="35" width="35" />
           <span>{ precipitation }%</span>
         </div>
         <div className="wind">
-          <img src="../assets/weather/wind_speed.svg" alt="wind speed" height="35" width="35" />
+          <img src="assets/weather/wind_speed.svg" alt="wind speed" height="35" width="35" />
           <span>{ windSpeed } { temperatureScale === 'C' ? 'mph' : 'kph' }</span>
         </div>
         <div className="humidity">
-          <img src="../assets/weather/humidity.svg" alt="humidity" height="35" width="35" />
+          <img src="assets/weather/humidity.svg" alt="humidity" height="35" width="35" />
           <span>{ humidity }%</span>
         </div>
       </div>
@@ -191,7 +191,7 @@ class WeatherPill extends React.Component {
 
     if (this.currentCardNumber === '0') {
       if (props.weatherResponse.currently) {
-        mainIconSource = `../assets/weather/${props.weatherResponse.currently.icon}.svg`;
+        mainIconSource = `assets/weather/${props.weatherResponse.currently.icon}.svg`;
         humidity = Math.round(props.weatherResponse.currently.humidity * 100);
         precipitation = Math.round(props.weatherResponse.currently.precipProbability * 100);
         summary = props.weatherResponse && props.weatherResponse.currently.summary;
@@ -200,7 +200,7 @@ class WeatherPill extends React.Component {
       }
     } else if (props.weatherResponse.daily &&
               props.weatherResponse.daily.data[this.currentCardNumber]) {
-      mainIconSource = `../assets/weather/${props.weatherResponse.daily.data[this.currentCardNumber].icon}.svg`;
+      mainIconSource = `assets/weather/${props.weatherResponse.daily.data[this.currentCardNumber].icon}.svg`;
       humidity =
         Math.round(props.weatherResponse.daily.data[this.currentCardNumber].humidity * 100);
       precipitation =
@@ -256,11 +256,11 @@ class WeatherPill extends React.Component {
     const nextDayIconSource = this.props.weatherResponse &&
                             this.props.weatherResponse.daily &&
                             this.props.weatherResponse.daily.data[1] &&
-                            `../assets/weather/${this.props.weatherResponse.daily.data[1].icon}.svg`;
+                            `assets/weather/${this.props.weatherResponse.daily.data[1].icon}.svg`;
     const dayAfterIconSource = this.props.weatherResponse &&
                             this.props.weatherResponse.daily &&
                             this.props.weatherResponse.daily.data[2] &&
-                            `../assets/weather/${this.props.weatherResponse.daily.data[2].icon}.svg`;
+                            `assets/weather/${this.props.weatherResponse.daily.data[2].icon}.svg`;
     const city = this.props.IPResponse && this.props.IPResponse.city;
     const country = this.props.IPResponse && this.props.IPResponse.country;
     const summary = this.props.weatherResponse && this.props.weatherResponse.currently.summary;
@@ -342,7 +342,7 @@ class WeatherPill extends React.Component {
           </div>
           <div className="refresh">
             Refresh
-            <img onClick={() => { this.props.fetchWeatherInformation(this.weatherURL); }} onKeyPress={() => {}} src="../assets/weather/refresh.svg" alt="refresh" height="18" width="18" />
+            <img onClick={() => { this.props.fetchWeatherInformation(this.weatherURL); }} onKeyPress={() => {}} src="assets/weather/refresh.svg" alt="refresh" height="18" width="18" />
           </div>
           <div className="darksky-api">
             <a href="https://darksky.net/dev/">Dark Sky API</a>

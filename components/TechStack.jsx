@@ -13,7 +13,6 @@ const revealAll = (event) => {
 
   if (currentTarget) {
     if (currentTarget.value === 'Reveal') {
-      console.log(currentTarget.innerText);
       currentTarget.previousSibling.style.display = 'none';
       currentTarget.innerText = 'Close All';
       currentTarget.value = 'Close';
@@ -34,7 +33,7 @@ const TechStack = () => (
     <div className="tech-stack">
       <div className="tech-stack-section">
         <div className="ratings">
-          <img className="img-circle" alt="html" height="120" width="150" src="../assets/techstack/html.png" />
+          <img className="img-circle" alt="html" height="120" width="150" src="assets/techstack/html.png" />
           <span className="reveal-text">
             <p> HTML5 </p>
             <p> (5 Years) </p>
@@ -42,7 +41,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="css" height="120" width="150" src="../assets/techstack/css.png" />
+          <img className="img-circle" alt="css" height="120" width="150" src="assets/techstack/css.png" />
           <span className="reveal-text">
             <p> CSS3 </p>
             <p> (5 Years) </p>
@@ -50,7 +49,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="react" height="120" width="150" src="../assets/techstack/react.png" />
+          <img className="img-circle" alt="react" height="120" width="150" src="assets/techstack/react.png" />
           <span className="reveal-text">
             <p> React </p>
             <p> (1 Year) </p>
@@ -58,7 +57,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="javascript" height="120" width="150" src="../assets/techstack/javascript.png" />
+          <img className="img-circle" alt="javascript" height="120" width="150" src="assets/techstack/javascript.png" />
           <span className="reveal-text">
             <p> JavaScript </p>
             <p> (5 Years) </p>
@@ -66,7 +65,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="java" height="120" width="150" src="../assets/techstack/java.png" />
+          <img className="img-circle" alt="java" height="120" width="150" src="assets/techstack/java.png" />
           <span className="reveal-text">
             <p> Java </p>
             <p> (5 Years) </p>
@@ -74,7 +73,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="ruby" height="120" width="150" src="../assets/techstack/ruby.png" />
+          <img className="img-circle" alt="ruby" height="120" width="150" src="assets/techstack/ruby.png" />
           <span className="reveal-text">
             <p> Ruby </p>
             <p> (3 Years) </p>
@@ -84,7 +83,7 @@ const TechStack = () => (
       </div>
       <div className="tech-stack-section">
         <div className="ratings">
-          <img className="img-circle" alt="jquery" height="120" width="150" src="../assets/techstack/jquery.png" />
+          <img className="img-circle" alt="jquery" height="120" width="150" src="assets/techstack/jquery.png" />
           <span className="reveal-text">
             <p> jQuery </p>
             <p> (5 Years) </p>
@@ -92,7 +91,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="ios" height="120" width="150" src="../assets/techstack/ios.png" />
+          <img className="img-circle" alt="ios" height="120" width="150" src="assets/techstack/ios.png" />
           <span className="reveal-text">
             <p> Objective-C  </p>
             <p> (2 Years) </p>
@@ -100,7 +99,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="rails" height="120" width="150" src="../assets/techstack/rails.png" />
+          <img className="img-circle" alt="rails" height="120" width="150" src="assets/techstack/rails.png" />
           <span className="reveal-text">
             <p> Rails </p>
             <p> (3 Years) </p>
@@ -108,7 +107,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="git" height="120" width="150" src="../assets/techstack/git.png" />
+          <img className="img-circle" alt="git" height="120" width="150" src="assets/techstack/git.png" />
           <span className="reveal-text">
             <p> GitHub </p>
             <p> (3 Years) </p>
@@ -116,7 +115,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="spring" height="120" width="150" src="../assets/techstack/spring.png" />
+          <img className="img-circle" alt="spring" height="120" width="150" src="assets/techstack/spring.png" />
           <span className="reveal-text">
             <p> Spring </p>
             <p> (2 Years) </p>
@@ -124,7 +123,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="struts" height="120" width="150" src="../assets/techstack/struts.jpeg" />
+          <img className="img-circle" alt="struts" height="120" width="150" src="assets/techstack/struts.jpeg" />
           <span className="reveal-text">
             <p> Struts </p>
             <p> (1 Year) </p>
@@ -134,7 +133,7 @@ const TechStack = () => (
       </div>
       <div className="tech-stack-section">
         <div className="ratings">
-          <img className="img-circle" alt="jasmine" height="120" width="150" src="../assets/techstack/jasmine.png" />
+          <img className="img-circle" alt="jasmine" height="120" width="150" src="assets/techstack/jasmine.png" />
           <span className="reveal-text">
             <p> Jasmine </p>
             <p> (3 Years) </p>
@@ -142,7 +141,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="webdriverio" height="120" width="150" src="../assets/techstack/webdriverio.png" />
+          <img className="img-circle" alt="webdriverio" height="120" width="150" src="assets/techstack/webdriverio.png" />
           <span className="reveal-text">
             <p> WebdriverIO </p>
             <p> (1 Year) </p>
@@ -150,7 +149,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="junit" height="120" width="150" src="../assets/techstack/junit.png" />
+          <img className="img-circle" alt="junit" height="120" width="150" src="assets/techstack/junit.png" />
           <span className="reveal-text">
             <p> JUnit </p>
             <p> (3 Years) </p>
@@ -158,7 +157,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="splunk" height="120" width="150" src="../assets/techstack/splunk.png" />
+          <img className="img-circle" alt="splunk" height="120" width="150" src="assets/techstack/splunk.png" />
           <span className="reveal-text">
             <p> Splunk </p>
             <p> (2 Years) </p>
@@ -166,7 +165,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="bootstrap" height="120" width="150" src="../assets/techstack/bootstrap.png" />
+          <img className="img-circle" alt="bootstrap" height="120" width="150" src="assets/techstack/bootstrap.png" />
           <span className="reveal-text">
             <p> Bootstrap </p>
             <p> (2 Years) </p>
@@ -174,7 +173,7 @@ const TechStack = () => (
           </span>
         </div>
         <div className="ratings">
-          <img className="img-circle" alt="mysql" height="120" width="150" src="../assets/techstack/mysql.png" />
+          <img className="img-circle" alt="mysql" height="120" width="150" src="assets/techstack/mysql.png" />
           <span className="reveal-text">
             <p> MySQL </p>
             <p> (2 Years) </p>
