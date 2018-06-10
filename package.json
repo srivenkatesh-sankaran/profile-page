@@ -6,7 +6,6 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --hot"
   },
   "author": "Sri Venkatesh Sankaran",
@@ -18,7 +17,6 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "firebase": "^4.10.1",
-    "gh-pages": "^1.2.0",
     "npm": "^5.7.1",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
@@ -39,7 +37,6 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
-    "file-loader": "^1.1.11",
-    "url-loader": "^1.0.1"
+    "file-loader": "^1.1.11"
   }
 }

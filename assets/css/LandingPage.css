@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Itim|Pacifico');
 
 .landing-page {
-  background: url(/assets/westworld.jpg);
+  background: url('../../assets/westworld.jpg');
   background-size: 100% 100%;
   cursor: pointer;
   height: 100%;

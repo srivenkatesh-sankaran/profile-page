@@ -7,7 +7,7 @@
 }
 
 .sticky-wrapper {
-  background: url('/assets/contact/stickyboard.jpg');
+  background: url('../../assets/contact/stickyboard.jpg');
   background-size: 100% 100%;
   min-height: 50%;
   width: 100%;
@@ -52,7 +52,7 @@
 }
 
 .contact-form {
-  background: url('/assets/contact/envelope.jpg');
+  background: url('../../assets/contact/envelope.jpg');
   background-size: 100% 100%;
   box-shadow: 10px 10px 10px #AAAAAA;
   display: block;

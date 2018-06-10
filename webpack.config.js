@@ -5,6 +5,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
+    publicPath:'dist/',
   },
   devtool: 'cheap-source-map',
   devServer: {
@@ -31,22 +32,13 @@ const config = {
         loader: 'style-loader!css-loader',
       },
       {
-        test: /\.(png|jpg|gif)$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 8192,
-            },
-          },
-        ],
-      },
-      {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg|gif)$/,
         use: [
           {
             loader: 'file-loader',
-            options: {},
+            options: {
+              name: 'images/[hash]-[name].[ext]'
+            },
           },
         ],
       },
